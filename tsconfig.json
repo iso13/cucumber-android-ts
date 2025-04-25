@@ -1,0 +1,29 @@
+{
+    "compilerOptions": {
+      "target": "ES2022",
+      "module": "commonjs",
+      "moduleResolution": "node",
+      "lib": ["ES2022", "DOM"],
+      "strict": true,
+      "skipLibCheck": true,
+      "noEmit": true,
+      "esModuleInterop": true,
+      "resolveJsonModule": true,
+      "allowImportingTsExtensions": true,
+      "isolatedModules": true,
+      "noUnusedLocals": true,
+      "noUnusedParameters": true,
+      "noFallthroughCasesInSwitch": true,
+      "types": [
+        "node",
+        "@wdio/globals",
+        "expect-webdriverio",
+        "@wdio/cucumber-framework"
+      ]
+    },
+    "include": [
+      "features/**/*.ts",
+      "support/**/*.ts",
+      "wdio.conf.ts"
+    ]
+  }
