@@ -1,3 +1,42 @@
-node_modules
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
-allure-results
+# Typescript
+dist/
+build/
+*.tsbuildinfo
+
+# WebdriverIO
+allure-results/
+allure-report/
+.errorShots/
+*.log
+
+# Android Studio / Emulator related
+*.iml
+.idea/
+.gradle/
+local.properties
+*.apk
+*.ap_
+
+# VSCode
+.vscode/
+
+# MacOS
+.DS_Store
+
+# Logs
+logs/
+*.log
+
+# Coverage
+coverage/
+.nyc_output/
+
+# Others
+.env
+.env.local
