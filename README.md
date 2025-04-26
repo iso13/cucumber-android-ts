@@ -4,6 +4,9 @@
 > End-to-End mobile automation framework for testing Android native apps.
 
 ---
+<h2><width="24" style="vertical-align: middle;"/> Shift-Left Quality Development - (Cucumber,Typescript,Android,WebDriverIO)</h2>
+
+[![Watch the Demo](assets/CucumberVideo.png)](assets/AlkamiDemo.mp4)
 
 ## 📋 Prerequisites
 
