@@ -1,33 +1,34 @@
 # cucumber-android-ts
 
-> Cucumber + WebdriverIO + Appium + TypeScript  
+> **Cucumber + WebdriverIO + Appium + TypeScript**  
 > End-to-End mobile automation framework for testing Android native apps.
 
 ---
-<h2><width="24" style="vertical-align: middle;"/> Shift-Left Quality Development - (Cucumber,Typescript,Android,WebDriverIO)</h2>
 
-[![Watch the Demo](assets/CucumberVideo.png)](assets/AlkamiDemo.mp4)
+# 🚀 Shift-Left Quality Development - (Cucumber, TypeScript, Android, WebDriverIO)
+
+[![Watch the Demo](assets/thumbnail.png)](https://youtu.be/_GAgWSjvLFw)
+
+---
 
 ## 📋 Prerequisites
 
 Make sure you have the following installed:
 
 - [Node.js](https://nodejs.org/) (v18+ recommended)
-- [Java JDK](https://adoptium.net/) (v11 or higher)
-- [Android Studio](https://developer.android.com/studio)  
+- [Java JDK](https://adoptium.net/) (v11+)
+- [Android Studio](https://developer.android.com/studio)
   - Android SDK
-  - AVD Emulator configured
-- [Appium](https://appium.io/)  
-  _(Managed automatically via WebdriverIO service)_
+  - Android Virtual Device (AVD) configured
+- [Appium](https://appium.io/) (Managed automatically via WebdriverIO)
 
-Confirm installations:
+Check installations:
 
 ```bash
 node -v
 npm -v
 java -version
 adb --version
-```
 
 ---
 
